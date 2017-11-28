@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+<TextView
+
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="Enter the Temperture"
+            android:layout_margin="8dp"
+            />
+    <EditText android:layout_width="match_parent"
+              android:layout_marginLeft="8dp"
+              android:layout_marginEnd="8dp"
+              android:layout_marginBottom="8dp"
+              android:layout_height="wrap_content"
+            android:id="@+id/edit_text_c"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+             android:text="From Unit:"
+            />
+    <Spinner android:layout_width="match_parent"
+             android:layout_marginLeft="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginBottom="8dp"
+             android:layout_height="wrap_content"
+             android:id="@+id/spinner_from"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="To Unit:"
+            />
+    <Spinner android:layout_width="match_parent"
+             android:layout_marginLeft="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginBottom="8dp"
+             android:layout_height="wrap_content"
+             android:id="@+id/spinner_to"
+            />
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_convert"
+            android:text="Convert"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/text_view_result"
+              android:layout_gravity="center_horizontal"
+            />
+</LinearLayout>
+
